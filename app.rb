@@ -11,5 +11,10 @@ class App < Sinatra::Base
   
   get'/hometown' do 
     'I am from Queens, NY'
-end
+  end
+  
+  get '/favesong' do
+    'I do not have a fave song at this point'
+  end 
+  
 end
