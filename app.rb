@@ -17,4 +17,12 @@ class App < Sinatra::Base
     'I do not have a fave song at this point'
   end 
   
+  get'/mood' do
+    'I am super sleeeeeeepy right now! NEED COFFEE ASAP!'
+  end
+  
+  get '/favefood' do
+    'korean bbq?'
+  end
+  
 end
